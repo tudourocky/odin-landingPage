@@ -71,6 +71,7 @@ body{
 .Main_Text .text button{
     background-color: #3882F6;
     border: none;
+    color:#E5E7EB;
     padding: 10px 20px;
     text-align: center;
     border-radius: 4px;
