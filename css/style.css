@@ -1,13 +1,23 @@
+p{
+    font-size: 18px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Times New Roman", Times, serif;
+}
+
 .first {
     color: white;
     background-color: #1F2937;
 }
 
 .header {
+    padding-top: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: red;
+    gap: 40%;
 }
 
 .Main_Text h1{
@@ -15,9 +25,9 @@
 }
 
 .logo img{
-    width: 50px;
+    align-self: flex-start;
+    width: 75px;
     height: auto;
-    padding-left: 400px;
 }
 
 .links ul{
@@ -32,8 +42,8 @@
 }
 
 .links{
-    margin-left: auto;
-    padding-right: 400px;
+    display: flex;
+    align-self: flex-end;
 }
 
 .Main_Text {
@@ -64,4 +74,96 @@ body{
     padding: 10px 20px;
     text-align: center;
     border-radius: 4px;
+}
+
+.second{
+    padding-top: 25px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 25px;
+}
+
+.second p{
+    max-width: 200px;
+    text-align: center;
+}
+
+.second h1{
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+}
+
+.second img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid #3882F6;
+    border-radius: 5%;
+} 
+
+.second .gallery{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.second .description{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.third{
+    background-color: #E5E7EB;
+    padding: 100px 20% 100px 20%;
+}
+
+.third p{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.third h3{
+    font-size: 20px;
+    text-align: right;
+}
+
+.fourth .box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3882F6;
+    margin: 100px 300px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 4px;
+}
+
+.fourth p{
+    color:#E5E7EB;
+}
+
+.box button{
+    color:#E5E7EB;
+    font-size: 15px;
+    background-color: #3882F6;
+    text-align: center;
+    border-radius: 4px;
+    width: 100px;
+    height: 40px;
+    border: 2px solid white;
+}
+
+.fifth {
+    font-size: 12px;
+    display: flex;
+    background-color: #1F2937;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    justify-content: center;
+    color:#E5E7EB;
 }
