@@ -1,3 +1,4 @@
 # odin-landingPage
 odin-landingPage
-Live Demo: https://tudourocky.github.io/odin-landingPage/
+
+Live Preview: https://tudourocky.github.io/odin-landingPage/
